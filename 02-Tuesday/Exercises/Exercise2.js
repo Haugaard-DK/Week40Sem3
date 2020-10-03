@@ -1,3 +1,4 @@
+//a
 let arrayy = [1, 2, 3, 4]
 let newArray = myFilter(arrayy, isEven);
 let newArray2 = myFilter(names, isA);
@@ -26,8 +27,6 @@ function isA(str){
         return str;
     }
 }
-
-
 
 //b
 var numbers = [1, 3, 5, 10, 11];

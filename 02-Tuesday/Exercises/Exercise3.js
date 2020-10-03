@@ -28,8 +28,6 @@ var persons = [{ name: "Hassan", phone: "1234567" },
 { name: "Jan", phone: "98547" },
 { name: "Boline", phone: "79345" }];
 
-
-
 let personTableString = persons.map(function(persons){
     return `${persons.name}: ${persons.phone}`;
 }).join("\n");
