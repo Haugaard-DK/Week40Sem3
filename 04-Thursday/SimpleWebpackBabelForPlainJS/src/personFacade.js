@@ -1,4 +1,4 @@
-const url = "http://localhost:8080/jpareststarter/api/person/"
+const url = "https://www.mathaugaard.dk/devops-starter-1.0.1/api/person/"
 function getPersons() {
     return fetch(url + "all")
         .then(handleHttpErrors)
@@ -11,7 +11,7 @@ function getPerson(id){
 
 function addPerson(person) {
     const options = makeOptions("POST", person);
-
+    
     return fetch(url, options)
         .then(handleHttpErrors);
 }
