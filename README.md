@@ -10,6 +10,5 @@
 
 ## THURSDAY
   * REST with JAX RS part 4 <br/>
-    
-    
-## FRIDAY
+    Der var nogle få problemer, men opgaverne blev løst.
+    Deployment http://mathaugaard.surge.sh/
